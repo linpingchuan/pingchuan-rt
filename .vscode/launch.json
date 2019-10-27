@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name":"Debug",
+            "type":"cppvsdbg",
+            "request":"launch",
+            "stopAtEntry":false,
+            "program": "${workspaceFolder}/target/debug/hello",
+            "args": [],
+            "preLaunchTask": "build", //预先执行task.json
+            "cwd": "${workspaceFolder}" // 调试程序时的工作目录
+        }
+    ]
+}
